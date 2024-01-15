@@ -6,7 +6,7 @@ export default function Home() {
       <ul>
         <li><Link href="/">Home</Link></li>
         <li><Link href="/pages/test">Test</Link></li>
-        <li><Link href="/pages/testDos">Test</Link></li>
+        <li><Link href="/pages/testDos">Segunda Opción</Link></li>
       </ul>
     </main>
   )
