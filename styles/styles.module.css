@@ -19,7 +19,7 @@
 }
 
 .navbarItem{
-    margin-left: 20px;
+    margin-left: 20px !important;
 }
 
 .navLink{
