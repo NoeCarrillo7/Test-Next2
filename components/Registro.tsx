@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 //import formStyles from "@/styles/formStyles.module.css" 
 
-const Registro = ()=> {
+const Registro = ({onClose}: any)=> {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -29,7 +29,7 @@ const Registro = ()=> {
                 <button onClick={handleRegistro}>Iniciar Sesion</button>
                 <br />
                 <p>¿Ya tienes cuenta? <Link href="#">Inicia Sesion</Link></p>
-                <button onClick={()=>{}}>Cerrar</button>
+                <button onClick= {onClose}>Cerrar</button>
             </div>
         </div>
     )
